@@ -1,3 +1,3 @@
 mod lattice;
 
-pub use lattice::{Lattice, Vector};
+pub use lattice::{KleinSampler, Lattice, Vector};
