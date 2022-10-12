@@ -1,9 +1,13 @@
 [package]
-name = "svp-rs"
-version = "0.1.0"
+name = "svp"
+version = "0.2.0"
+description = "Lattice sieving over the integers with arbitrary precision."
+repository = "https://github.com/tacotaha/svp"
+readme = "README.md"
+categories = ["cryptography", "science"]
+license = "MIT"
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 rand = "0.8.5"
+rug = "1.17.0"
